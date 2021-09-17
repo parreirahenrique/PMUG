@@ -1,0 +1,92 @@
+int numIndPop = _Populacao.Count;                                   // Número de indivíduos na fronteira
+        double[] _crowdingDistance = new double[numIndPop];                     // Array para ser retornado com as Crowding Distances da fronteira de entrada
+
+        double menorDistancia1;                                                 // Variável para armazenar a primeira menor distância de um indivíduo de uma população
+        double menorDistancia2;                                                 // Variável para armazenar a segunda menor distância de um indivíduo de uma população
+
+        double objetivo11;                                                      // Variável para armazenar o valor da função objetivo 1 do primeiro indivíduo
+        double objetivo12;                                                      // Variável para armazenar o valor da função objetivo 2 do primeiro indivíduo
+        double objetivo13;                                                      // Variável para armazenar o valor da função objetivo 2 do primeiro indivíduo
+        
+        double objetivo21;                                                      // Variável para armazenar o valor da função objetivo 1 do segundo indivíduo
+        double objetivo22;                                                      // Variável para armazenar o valor da função objetivo 2 do segundo indivíduo
+        double objetivo23;                                                      // Variável para armazenar o valor da função objetivo 2 do segundo indivíduo
+        
+        double a;                                                               // Variável para armazenar a diferença dos valores da função objetivo 1
+        double b;                                                               // Variável para armazenar a diferença dos valores da função objetivo 2
+        double c;                                                               // Variável para armazenar a diferença dos valores da função objetivo 3
+        double distancia;                                                       // Variável para armazenar a distância entre dois indivíduos
+
+        // Caso a fronteira tenha um indivíduo
+        if (numIndPop == 1)
+        {
+            _crowdingDistance[0] = 0;                                           // Não há distância pois não há outros indivíduos na população
+        }
+
+        // Caso a fronteira tenha dois indivíduos
+        else if(numIndPop == 2)
+        {
+            objetivo11 = _Populacao[0].receitaMediaProdutor;                    // Armazena o valor da função ojetivo 1 do primeiro indivíduo
+            objetivo12 = _Populacao[0].eensPlano;                               // Armazena o valor da função ojetivo 2 do primeiro indivíduo
+            objetivo13 = _Populacao[0].custoMedioProd;                          // Armazena o valor da função ojetivo 3 do primeiro indivíduo
+
+            objetivo21 = _Populacao[1].receitaMediaProdutor;                    // Armazena o valor da função ojetivo 1 do segundo indivíduo
+            objetivo22 = _Populacao[1].eensPlano;                               // Armazena o valor da função ojetivo 2 do segundo indivíduo
+            objetivo23 = _Populacao[1].custoMedioProd;                          // Armazena o valor da função ojetivo 3 do segundo indivíduo
+
+            a = objetivo11 - objetivo21;                                        // Calcula a diferença entre os valores da função objetivo 1
+            b = objetivo12 - objetivo22;                                        // Calcula a diferença entre os valores da função objetivo 2
+            c = objetivo13 - objetivo23;                                        // Calcula a diferença entre os valores da função objetivo 3
+
+            _crowdingDistance[0] = Math.Sqrt(a * a + b * b + c * c);            // Armazena o valor da crowding distance para o segundo indivíduo
+            _crowdingDistance[1] = Math.Sqrt(a * a + b * b + c * c);            // Armazena o valor da crowding distance para o segundo indivíduo
+        }
+
+        // Caso a fronteira tenha mais de dois indivíduos
+        if(numIndPop > 2)
+        {
+            // Loop para encontrar as distâncias entre um indivíduo e os dois indivíduos adjacentes a ele
+            for(int i = 0; i < numIndPop; i++)
+            {
+                objetivo11 = _Populacao[i].receitaMediaProdutor;                // Armazena o valor da função ojetivo 1 do i-ésimo indivíduo
+                objetivo12 = _Populacao[i].eensPlano;                           // Armazena o valor da função ojetivo 2 do i-ésimo indivíduo
+                objetivo13 = _Populacao[i].custoMedioProd;                      // Armazena o valor da função ojetivo 3 do i-ésimo indivíduo
+
+                menorDistancia1 = Double.MaxValue;                              // Reiniciando valor da menor distância
+                menorDistancia2 = Double.MaxValue;                              // Reiniciando valor da menor distância
+
+                // Loop para encontrar os dois indivíduos mais próximos ao i-ésimo indivíduo e armazenar as distâncias até eles
+                for(int j = 0; j < numIndPop; j++)
+                {
+                    // Distância não deve ser calculada entre o indivíduo e o próprio indivíduo
+                    if(j != i)
+                    {
+                        objetivo21 = _Populacao[j].receitaMediaProdutor;        // Armazena o valor da função ojetivo 1 do j-ésimo indivíduo
+                        objetivo22 = _Populacao[j].eensPlano;                   // Armazena o valor da função ojetivo 2 do j-ésimo indivíduo
+                        objetivo23 = _Populacao[j].custoMedioProd;              // Armazena o valor da função ojetivo 3 do j-ésimo indivíduo
+
+                        a = objetivo11 - objetivo21;                            // Calcula a diferença entre os valores da função objetivo 1
+                        b = objetivo12 - objetivo22;                            // Calcula a diferença entre os valores da função objetivo 2
+                        c = objetivo13 - objetivo23;                            // Calcula a diferença entre os valores da função objetivo 3
+
+                        distancia = Math.Sqrt(a * a + b * b + c * c);           // Calcula a distância até o j-ésimo indivíduo
+
+                        // Caso a distância até o j-ésimo indivíduo for menor ou igual a primeira menor distância até então armazenada
+                        if (distancia <= menorDistancia1)
+                        {
+                            menorDistancia2 = menorDistancia1;                  // A menor distância calculada anteriormente passa a ser a segunda menor distância
+                            menorDistancia1 = distancia;                        // A distância atual passa a ser a menor distância
+                        }
+                        // Caso a distância até o j-ésimo indivíduo for menor ou igual a segunda menor distância até então armazenada
+                        else if(distancia <= menorDistancia2 && distancia > menorDistancia1)
+                        {
+                            menorDistancia2 = distancia;                        // A distância atual passa a ser a segunda menor distância                   
+                        }
+                    }
+                }
+
+                _crowdingDistance[i] = (menorDistancia1 + menorDistancia2) / 2; // Crowding Distance do i-ésimo indivíduo é a média das menores distâncias
+            }
+        }
+
+        return _crowdingDistance;

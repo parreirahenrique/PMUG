@@ -1,0 +1,200 @@
+// Gerando indivíduos da população inteligente
+            #region Gerando indivíduos cujos genes tem valores das semanas de menor PLD e menor carga
+
+            // Instanciando algumas variáveis necessárias
+            List<Plano> PopIntel = new List<Plano>();                                            // Lista contendo os indivíduos com maiores chances de ter bons valores das funções objetivo
+            Plano indIntel = new Plano(sistema);                                                 // Objeto para receber suposto melhor plano para receita média do produtor
+            double[] PLDSemanal = new double[this.sistema.PLDMedioSemanal.Length - 1];           // Array para o PLD médio semanal
+            double[] curvaDeCarga = this.sistema.curvaCarga;                                     // Array para a curva de carga
+            double[] curvaCargaSemanal = new double[PLDSemanal.Length];                          // Array para a curva de carga média semanal
+            double[] potMaxGer = new double[UGsMnt.Count()];                                     // Array para as potências máximas de cada unidade geradora a receber manutenção
+            double[] custoGer = new double[UGsMnt.Count()];                                      // Array para os custos de produção de cada unidade geradora a receber manutenção
+            int[] posicoesGerPot = new int[UGsMnt.Count()];                                      // Array para as posições de cada unidade geradora a receber manutenção ordenado pela potência máxima
+            int[] posicoesGerCusto = new int[UGsMnt.Count()];                                    // Array para as posições de cada unidade geradora a receber manutenção ordenado pelo custo de geração
+            int[] posicoesPLD = new int[PLDSemanal.Length];                                      // Array para conter as semanas ordenadas pelos valores do PLD
+            int[] posicoesCurva = new int[PLDSemanal.Length];                                    // Array para conter as semanas ordenadas pelos valores da curva de carga média semanal
+            int semMax;                                                                          // Variável para receber a semana máxima em que um gerador pode receber manutenção
+            int contHoras = new int();                                                           // Contador de horas
+            double somPot = new double();                                                        // Variável para se acumular as cargas de toda uma semana
+            
+            // Para o período de estudo úmido
+            if(perEst == "UMID")
+            {
+            
+            }
+
+            // Para os demais períodos de estudo
+            else
+            {
+                // Armazenando valores do PLD semanal no array correspondente
+                for(int i = 0; i < PLDSemanal.Length; i++)
+                {
+                    PLDSemanal[i] = this.sistema.PLDMedioSemanal[i];                             // Armazena o valor do PLD da i-ésima semana 
+                }
+
+                // Criando curva de carga semanal
+                for (int i = 0; i < (PLDSemanal.Length); i++)
+                {
+                    somPot = 0;                                                                  // Reiniciando variável para acumular as pôtências de toda uma semana
+
+                    // Loop para acumular as potências da semana atual
+                    for(int j = contHoras; j < (contHoras + 24 * 7); j++)
+                    {
+                        somPot += curvaDeCarga[j];                                               // Soma o valor da potência da j-ésima hora do período
+                    }
+                    
+                    curvaCargaSemanal[i] = somPot/(24 * 7);                                      // Calcula o valor médio de carga para a i-ésima semana
+                    contHoras += 24*7;                                                           // Acresce o número de horas dentro de uma semana no contador
+
+                    // Condição para interromper o loop for
+                    if(contHoras > ((PLDSemanal.Length) * 24 * 7))         
+                    {
+                        break;                                                                   // Caso o número de horas do período seja ultrapassado, interrompe o loop
+                    }
+                }
+
+                // Ordenando array de posições do PLD de acordo com as semanas com menores valores
+                for(int i = 0; i < PLDSemanal.Length; i++)
+                {
+                    posicoesPLD[i] = i;                                                          // Adiciona i-ésima semana ao array
+                }
+
+                Array.Sort(PLDSemanal, posicoesPLD);
+
+                // Ordenando array de posições da curva de carga de acordo com as semanas com menores valores
+                for(int i = 0; i < PLDSemanal.Length - 1; i++)
+                {
+                    posicoesCurva[i] = i;                                                        // Adiciona i-ésima semana ao array
+                }
+
+                Array.Sort(curvaCargaSemanal, posicoesCurva);
+
+                // Compondo arrays para ordenar geradores em ordem decrescente de potência máxima
+                for(int i = 0; i < UGsMnt.Count(); i++)
+                {
+                    posicoesGerPot[i] = i;                                                       // Adiciona posição do i-ésimo gerador ao array
+                    potMaxGer[i] = UGsMnt[i].PotMax;                                             // Adiciona potência do i-ésimo gerador ao array
+                }
+
+                Array.Sort(potMaxGer, posicoesGerPot);                                           // Ordenando arrays em ordem crescente do custo de produção
+                Array.Reverse(posicoesGerPot);                                                   // Invertendo a ordem do array de posições
+
+            
+                // Compondo arrays para ordenar geradores em ordem decrescente de custo
+                for(int i = 0; i < UGsMnt.Count(); i++)
+                {
+                    posicoesGerCusto[i] = i;                                                     // Adiciona posição do i-ésimo gerador ao array
+                    custoGer[i] = UGsMnt[i].custoGer;                                            // Adiciona custo do i-ésimo gerador ao array
+                }
+
+                Array.Sort(custoGer, posicoesGerCusto);                                          // Ordenando arrays em ordem crescente do custo de produção
+                Array.Reverse(posicoesGerCusto);                                                 // Invertendo a ordem do array de posições
+
+                // Loop para gerar indivíduos levando em consideração a receita média do produtor
+                for(int i = 0; i < (PLDSemanal.Length - 7); i++)
+                {
+                    for(int j = 0; j < UGsMnt.Count(); j++)
+                    {
+                        semMax = semFim - UGsMnt[j].nSemNecMnt;                                  // Semana máxima em que o j-ésimo gerador pode receber manutenção
+
+                        // Caso a semana em questão seja maior que a semana máxima
+                        if((posicoesPLD[j + i] + 1) > semMax)
+                        {
+                            indIntel.vetorPlano[posicoesGerPot[j]] = semMax;                     // Caso seja extrapolada a semana máxima, o gerador receberá manutenção na semana máxima
+                        }
+
+                        // Caso a semana em questão não seja maior que a semana máxima
+                        else
+                        {
+                            indIntel.vetorPlano[posicoesGerPot[j]] = posicoesPLD[j + i] + 1;     // Geradores com maior potência colocados para manutenção nas semanas com menor valor do PLD
+                        }
+                    }
+
+                    indIntel.AvaliaPlano(SMCNS);                                                 // Avaliando plano criado através do método
+                    PopIntel.Add(indIntel);                                                      // Adicionando plano à população inteligente
+                    indIntel = new Plano(sistema);                                               // Reiniciando objeto para recebimento do próximo plano
+                }
+
+                // Loop para gerar indivíduos levando em consideração o índice EENS
+                for(int i = 0; i < (PLDSemanal.Length - 7); i ++)
+                {
+                    for(int j = 0; j < UGsMnt.Count(); j++)
+                    {
+                        semMax = semFim - UGsMnt[j].nSemNecMnt;                                  // Semana máxima em que o j-ésimo gerador pode receber manutenção
+
+                        // Caso a semana em questão seja maior que a semana máxima
+                        if((posicoesCurva[j + i] + 1) > semMax)
+                        {
+                            indIntel.vetorPlano[posicoesGerPot[j]] = semMax;                     // Caso seja extrapolada a semana máxima, o gerador receberá manutenção na semana máxima
+                        }
+
+                        // Caso a semana em questão não seja maior que a semana máxima
+                        else
+                        {
+                            indIntel.vetorPlano[posicoesGerPot[j]] = posicoesCurva[j + i] + 1;   // Geradores com maior potência colocados para manutenção nas semanas com menor valor do PLD
+                        }
+                    }
+
+                    indIntel.AvaliaPlano(SMCNS);                                                 // Avaliando plano criado através do método
+                    PopIntel.Add(indIntel);                                                      // Adicionando plano à população inteligente
+                    indIntel = new Plano(sistema);                                               // Reiniciando objeto para recebimento do próximo plano
+                }
+
+                // Loop para gerar indivíduos levando em consideração o custo médio de produção
+                for(int i = 0; i < (PLDSemanal.Length - 7); i ++)
+                {
+                    for(int j = 0; j < UGsMnt.Count(); j++)
+                    {
+                        semMax = semFim - UGsMnt[j].nSemNecMnt;                                  // Semana máxima em que o j-ésimo gerador pode receber manutenção
+
+                        // Caso a semana em questão seja maior que a semana máxima
+                        if((posicoesCurva[j + i] + 1) > semMax)
+                        {
+                            indIntel.vetorPlano[posicoesGerCusto[j]] = semMax;                   // Caso seja extrapolada a semana máxima, o gerador receberá manutenção na semana máxima
+                        }
+
+                        // Caso a semana em questão não seja maior que a semana máxima
+                        else
+                        {
+                            indIntel.vetorPlano[posicoesGerCusto[j]] = posicoesCurva[j + i] + 1; // Geradores com maior potência colocados para manutenção nas semanas com menor valor do PLD
+                        }
+                    }
+
+                    indIntel.AvaliaPlano(SMCNS);                                                 // Avaliando plano criado através do método
+                    PopIntel.Add(indIntel);                                                      // Adicionando plano à população inteligente
+                    indIntel = new Plano(sistema);                                               // Reiniciando objeto para recebimento do próximo plano
+                }
+            }
+
+            // Avaliando as fronteiras de dominância dos indivíduos gerados para a população inteligente
+            int [] frontDomPopInt = new int [PopIntel.Count()];                                  // Array para receber a fronteira de dominância em que cada indivíduo da população inteligente se encontra
+            List<Plano> AuxPopIntel = CopiarPopulacao(PopIntel);                                 // Copiando população inteligente para a lista auxiliar
+            PopIntel.Clear();                                                                    // Limpando população inteligente para receber apenas os indivíduos da fronteira não dominada
+
+            frontDomPopInt = VerificaDominancia(AuxPopIntel);                                    // Utilizando método para classificar os indivíduos da população inteligente em fronteiras de dominância
+
+            // Loop para selecionar apenas os indivíduos não dominados à população inteligente
+            for(int i = 0; i < AuxPopIntel.Count(); i++)
+            {
+                // Adicionando apenas os indivíduos da fronteira não dominada à população inteligente
+                if(frontDomPopInt[i] == 0)
+                {
+                    PopIntel.Add(AuxPopIntel[i]);                                                // Adiciona o i-ésimo indivíduo a população inteligente
+                }
+            }
+
+            // Caso a população inteligente tenha mais indivíduos que o número de indivíduos necessários em uma geração
+            if(PopIntel.Count() > numInd)
+            {
+                double [] crowdDistPopInt = new double [PopIntel.Count()];                       // Array para armazenar a crowding distance dos indivíduos da população inteligente
+                frontDomPopInt = new int[PopIntel.Count()];                                      // Array para a fronteira de dominância dos indivíduos da população inteligente
+                
+                crowdDistPopInt = CrowdingDistance(PopIntel);                                    // Utiliza o método para calcular a Crowding Distance dos indivíduos da população inteligente
+                
+                AuxPopIntel = SelecaoIndividuos(PopIntel, frontDomPopInt, crowdDistPopInt);      // Utiliza o método para selecionar os indivíduos com maior Crowding Distance
+                
+                PopIntel.Clear();                                                                // Limpando geração inteligente para receber apenas os indivíduos que devem permanecer nela
+                PopIntel = CopiarPopulacao(AuxPopIntel);                                         // Recebendo apenas os indivíduos que devem permanecer na população inteligente
+            }   
+
+            #endregion

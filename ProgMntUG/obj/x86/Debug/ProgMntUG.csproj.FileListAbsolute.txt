@@ -1,0 +1,106 @@
+F:\Dropbox\Dropbox\UFSJ\03 - Trabalho Final de Curso\2019\PMUG\ProgMntUG\ProgMntUG\bin\Debug\ProgMntUG.exe
+F:\Dropbox\Dropbox\UFSJ\03 - Trabalho Final de Curso\2019\PMUG\ProgMntUG\ProgMntUG\bin\Debug\ProgMntUG.pdb
+F:\Dropbox\Dropbox\UFSJ\03 - Trabalho Final de Curso\2019\PMUG\ProgMntUG\ProgMntUG\obj\x86\Debug\ProgMntUG.exe
+F:\Dropbox\Dropbox\UFSJ\03 - Trabalho Final de Curso\2019\PMUG\ProgMntUG\ProgMntUG\obj\x86\Debug\ProgMntUG.pdb
+C:\Users\Fernando Assis\Dropbox\UFSJ\03 - Trabalho Final de Curso\2019\PMUG\ProgMntUG\ProgMntUG\bin\Debug\ProgMntUG.exe
+C:\Users\Fernando Assis\Dropbox\UFSJ\03 - Trabalho Final de Curso\2019\PMUG\ProgMntUG\ProgMntUG\bin\Debug\ProgMntUG.pdb
+C:\Users\Fernando Assis\Dropbox\UFSJ\03 - Trabalho Final de Curso\2019\PMUG\ProgMntUG\ProgMntUG\obj\x86\Debug\ProgMntUG.exe
+C:\Users\Fernando Assis\Dropbox\UFSJ\03 - Trabalho Final de Curso\2019\PMUG\ProgMntUG\ProgMntUG\obj\x86\Debug\ProgMntUG.pdb
+F:\Dropbox\Dropbox\UFSJ\03 - Trabalho Final de Curso\2019\PMUG\ProgMntUG\ProgMntUG\obj\x86\Debug\ProgMntUG.csprojResolveAssemblyReference.cache
+F:\Dropbox\Dropbox\UFSJ\09 - Estudo na área de planejamento manutenção\ProgMntUG - 03052019\ProgMntUG\obj\x86\Debug\ProgMntUG.exe
+F:\Dropbox\Dropbox\UFSJ\09 - Estudo na área de planejamento manutenção\ProgMntUG - 03052019\ProgMntUG\obj\x86\Debug\ProgMntUG.pdb
+F:\Dropbox\Dropbox\UFSJ\09 - Estudo na área de planejamento manutenção\ProgMntUG - 03052019\ProgMntUG\bin\Debug\ProgMntUG.exe
+F:\Dropbox\Dropbox\UFSJ\09 - Estudo na área de planejamento manutenção\ProgMntUG - 03052019\ProgMntUG\bin\Debug\ProgMntUG.pdb
+F:\Dropbox\Dropbox\UFSJ\09 - Estudo na área de planejamento manutenção\ProgMntUG - 03052019\ProgMntUG\obj\x86\Debug\ProgMntUG.csprojResolveAssemblyReference.cache
+C:\Users\PC000042\Dropbox\UFSJ\09 - Estudo na área de planejamento manutenção\ProgMntUG - 06052019\ProgMntUG\bin\Debug\ProgMntUG.exe
+C:\Users\PC000042\Dropbox\UFSJ\09 - Estudo na área de planejamento manutenção\ProgMntUG - 06052019\ProgMntUG\bin\Debug\ProgMntUG.pdb
+C:\Users\PC000042\Dropbox\UFSJ\09 - Estudo na área de planejamento manutenção\ProgMntUG - 06052019\ProgMntUG\obj\x86\Debug\ProgMntUG.csproj.CoreCompileInputs.cache
+C:\Users\PC000042\Dropbox\UFSJ\09 - Estudo na área de planejamento manutenção\ProgMntUG - 06052019\ProgMntUG\obj\x86\Debug\ProgMntUG.exe
+C:\Users\PC000042\Dropbox\UFSJ\09 - Estudo na área de planejamento manutenção\ProgMntUG - 06052019\ProgMntUG\obj\x86\Debug\ProgMntUG.pdb
+C:\Users\PC000042\Dropbox\UFSJ\09 - Estudo na área de planejamento manutenção\ProgMntUG - 07052019 - Div KMeans\ProgMntUG\obj\x86\Debug\ProgMntUG.csproj.CoreCompileInputs.cache
+C:\Users\PC000042\Dropbox\UFSJ\ProgMntUG - 07052019 - Div KMeans\ProgMntUG\bin\Debug\ProgMntUG.exe
+C:\Users\PC000042\Dropbox\UFSJ\ProgMntUG - 07052019 - Div KMeans\ProgMntUG\bin\Debug\ProgMntUG.pdb
+C:\Users\PC000042\Dropbox\UFSJ\ProgMntUG - 07052019 - Div KMeans\ProgMntUG\obj\x86\Debug\ProgMntUG.csprojAssemblyReference.cache
+C:\Users\PC000042\Dropbox\UFSJ\ProgMntUG - 07052019 - Div KMeans\ProgMntUG\obj\x86\Debug\ProgMntUG.csproj.CoreCompileInputs.cache
+C:\Users\PC000042\Dropbox\UFSJ\ProgMntUG - 07052019 - Div KMeans\ProgMntUG\obj\x86\Debug\ProgMntUG.exe
+C:\Users\PC000042\Dropbox\UFSJ\ProgMntUG - 07052019 - Div KMeans\ProgMntUG\obj\x86\Debug\ProgMntUG.pdb
+C:\Users\Fernando Assis\Dropbox\UFSJ\03 - Trabalho Final de Curso\2019\PMUG\ProgMntUG - 13052019\ProgMntUG\obj\x86\Debug\ProgMntUG.exe
+C:\Users\Fernando Assis\Dropbox\UFSJ\03 - Trabalho Final de Curso\2019\PMUG\ProgMntUG - 13052019\ProgMntUG\obj\x86\Debug\ProgMntUG.pdb
+C:\Users\Fernando Assis\Dropbox\UFSJ\03 - Trabalho Final de Curso\2019\PMUG\ProgMntUG - 13052019\ProgMntUG\bin\Debug\ProgMntUG.exe
+C:\Users\Fernando Assis\Dropbox\UFSJ\03 - Trabalho Final de Curso\2019\PMUG\ProgMntUG - 13052019\ProgMntUG\bin\Debug\ProgMntUG.pdb
+C:\Users\André\Desktop\TFC\Rotinas_Prof_Fernando\ProgMntUG - 13052019\ProgMntUG\bin\Debug\ProgMntUG.exe
+C:\Users\André\Desktop\TFC\Rotinas_Prof_Fernando\ProgMntUG - 13052019\ProgMntUG\bin\Debug\ProgMntUG.pdb
+C:\Users\André\Desktop\TFC\Rotinas_Prof_Fernando\ProgMntUG - 13052019\ProgMntUG\obj\x86\Debug\ProgMntUG.csprojAssemblyReference.cache
+C:\Users\André\Desktop\TFC\Rotinas_Prof_Fernando\ProgMntUG - 13052019\ProgMntUG\obj\x86\Debug\ProgMntUG.csproj.CoreCompileInputs.cache
+C:\Users\André\Desktop\TFC\Rotinas_Prof_Fernando\ProgMntUG - 13052019\ProgMntUG\obj\x86\Debug\ProgMntUG.exe
+C:\Users\André\Desktop\TFC\Rotinas_Prof_Fernando\ProgMntUG - 13052019\ProgMntUG\obj\x86\Debug\ProgMntUG.pdb
+C:\Users\André\Desktop\TFC\Rotinas_Prof_Fernando\ProgMntUG\bin\Debug\ProgMntUG.exe
+C:\Users\André\Desktop\TFC\Rotinas_Prof_Fernando\ProgMntUG\bin\Debug\ProgMntUG.pdb
+C:\Users\André\Desktop\TFC\Rotinas_Prof_Fernando\ProgMntUG\obj\x86\Debug\ProgMntUG.csprojAssemblyReference.cache
+C:\Users\André\Desktop\TFC\Rotinas_Prof_Fernando\ProgMntUG\obj\x86\Debug\ProgMntUG.csproj.CoreCompileInputs.cache
+C:\Users\André\Desktop\TFC\Rotinas_Prof_Fernando\ProgMntUG\obj\x86\Debug\ProgMntUG.exe
+C:\Users\André\Desktop\TFC\Rotinas_Prof_Fernando\ProgMntUG\obj\x86\Debug\ProgMntUG.pdb
+C:\Users\André\Desktop\TFC\Teste_1_Rotinas_EE_ProgMntUG\ProgMntUG\obj\x86\Debug\ProgMntUG.csprojAssemblyReference.cache
+C:\Users\André\Desktop\TFC\Teste_1_Rotinas_EE_ProgMntUG\ProgMntUG\obj\x86\Debug\ProgMntUG.csproj.CoreCompileInputs.cache
+C:\Users\André\Desktop\TFC\Teste_1_Rotinas_EE_ProgMntUG\ProgMntUG\obj\x86\Debug\ProgMntUG.exe
+C:\Users\André\Desktop\TFC\Teste_1_Rotinas_EE_ProgMntUG\ProgMntUG\obj\x86\Debug\ProgMntUG.pdb
+C:\Users\André\Desktop\TFC\Teste_1_Rotinas_EE_ProgMntUG\ProgMntUG\bin\Debug\ProgMntUG.exe
+C:\Users\André\Desktop\TFC\Teste_1_Rotinas_EE_ProgMntUG\ProgMntUG\bin\Debug\ProgMntUG.pdb
+C:\Users\André\Desktop\TFC\Teste_1_EE_ProgMntUG\ProgMntUG\bin\Debug\ProgMntUG.exe
+C:\Users\André\Desktop\TFC\Teste_1_EE_ProgMntUG\ProgMntUG\bin\Debug\ProgMntUG.pdb
+C:\Users\André\Desktop\TFC\Teste_1_EE_ProgMntUG\ProgMntUG\obj\x86\Debug\ProgMntUG.csprojAssemblyReference.cache
+C:\Users\André\Desktop\TFC\Teste_1_EE_ProgMntUG\ProgMntUG\obj\x86\Debug\ProgMntUG.csproj.CoreCompileInputs.cache
+C:\Users\André\Desktop\TFC\Teste_1_EE_ProgMntUG\ProgMntUG\obj\x86\Debug\ProgMntUG.exe
+C:\Users\André\Desktop\TFC\Teste_1_EE_ProgMntUG\ProgMntUG\obj\x86\Debug\ProgMntUG.pdb
+C:\Users\André\Desktop\TFC\EE_v1_ProgMntUG\ProgMntUG\bin\Debug\ProgMntUG.exe
+C:\Users\André\Desktop\TFC\EE_v1_ProgMntUG\ProgMntUG\bin\Debug\ProgMntUG.pdb
+C:\Users\André\Desktop\TFC\EE_v1_ProgMntUG\ProgMntUG\obj\x86\Debug\ProgMntUG.csprojAssemblyReference.cache
+C:\Users\André\Desktop\TFC\EE_v1_ProgMntUG\ProgMntUG\obj\x86\Debug\ProgMntUG.csproj.CoreCompileInputs.cache
+C:\Users\André\Desktop\TFC\EE_v1_ProgMntUG\ProgMntUG\obj\x86\Debug\ProgMntUG.exe
+C:\Users\André\Desktop\TFC\EE_v1_ProgMntUG\ProgMntUG\obj\x86\Debug\ProgMntUG.pdb
+C:\Users\André\Desktop\TFC\ProgMntUG_EE\ProgMntUG\bin\Debug\ProgMntUG.exe
+C:\Users\André\Desktop\TFC\ProgMntUG_EE\ProgMntUG\bin\Debug\ProgMntUG.pdb
+C:\Users\André\Desktop\TFC\ProgMntUG_EE\ProgMntUG\obj\x86\Debug\ProgMntUG.csprojAssemblyReference.cache
+C:\Users\André\Desktop\TFC\ProgMntUG_EE\ProgMntUG\obj\x86\Debug\ProgMntUG.csproj.CoreCompileInputs.cache
+C:\Users\André\Desktop\TFC\ProgMntUG_EE\ProgMntUG\obj\x86\Debug\ProgMntUG.exe
+C:\Users\André\Desktop\TFC\ProgMntUG_EE\ProgMntUG\obj\x86\Debug\ProgMntUG.pdb
+C:\Users\André\Documents\UFSJ\TFC_ProgMntUG_EE\ProgMntUG_EE\ProgMntUG\bin\Debug\ProgMntUG.exe
+C:\Users\André\Documents\UFSJ\TFC_ProgMntUG_EE\ProgMntUG_EE\ProgMntUG\bin\Debug\ProgMntUG.pdb
+C:\Users\André\Documents\UFSJ\TFC_ProgMntUG_EE\ProgMntUG_EE\ProgMntUG\obj\x86\Debug\ProgMntUG.csprojAssemblyReference.cache
+C:\Users\André\Documents\UFSJ\TFC_ProgMntUG_EE\ProgMntUG_EE\ProgMntUG\obj\x86\Debug\ProgMntUG.csproj.CoreCompileInputs.cache
+C:\Users\André\Documents\UFSJ\TFC_ProgMntUG_EE\ProgMntUG_EE\ProgMntUG\obj\x86\Debug\ProgMntUG.exe
+C:\Users\André\Documents\UFSJ\TFC_ProgMntUG_EE\ProgMntUG_EE\ProgMntUG\obj\x86\Debug\ProgMntUG.pdb
+C:\Users\PC000042\Dropbox\UFSJ\03 - Trabalho Final de Curso\2019\PMUG - André\Versão Final do Código\Rotinas_ProgMntUG_EE\ProgMntUG\bin\Debug\ProgMntUG.exe
+C:\Users\PC000042\Dropbox\UFSJ\03 - Trabalho Final de Curso\2019\PMUG - André\Versão Final do Código\Rotinas_ProgMntUG_EE\ProgMntUG\bin\Debug\ProgMntUG.pdb
+C:\Users\PC000042\Dropbox\UFSJ\03 - Trabalho Final de Curso\2019\PMUG - André\Versão Final do Código\Rotinas_ProgMntUG_EE\ProgMntUG\obj\x86\Debug\ProgMntUG.csproj.CoreCompileInputs.cache
+C:\Users\PC000042\Dropbox\UFSJ\03 - Trabalho Final de Curso\2019\PMUG - André\Versão Final do Código\Rotinas_ProgMntUG_EE\ProgMntUG\obj\x86\Debug\ProgMntUG.exe
+C:\Users\PC000042\Dropbox\UFSJ\03 - Trabalho Final de Curso\2019\PMUG - André\Versão Final do Código\Rotinas_ProgMntUG_EE\ProgMntUG\obj\x86\Debug\ProgMntUG.pdb
+C:\Users\PC000042\Dropbox\UFSJ\03 - Trabalho Final de Curso\2019\PMUG - André\Versão Final do Código\Rotinas_ProgMntUG_EE\ProgMntUG\obj\x86\Debug\ProgMntUG.csprojAssemblyReference.cache
+C:\Users\PC000042\Dropbox\UFSJ\06 - Estudos - Projetos\2019\Estudo na área de planejamento manutenção\ProgMntUG_EE - KMeans - 25112019\ProgMntUG\bin\Debug\ProgMntUG.exe
+C:\Users\PC000042\Dropbox\UFSJ\06 - Estudos - Projetos\2019\Estudo na área de planejamento manutenção\ProgMntUG_EE - KMeans - 25112019\ProgMntUG\bin\Debug\ProgMntUG.pdb
+C:\Users\PC000042\Dropbox\UFSJ\06 - Estudos - Projetos\2019\Estudo na área de planejamento manutenção\ProgMntUG_EE - KMeans - 25112019\ProgMntUG\obj\x86\Debug\ProgMntUG.csproj.CoreCompileInputs.cache
+C:\Users\PC000042\Dropbox\UFSJ\06 - Estudos - Projetos\2019\Estudo na área de planejamento manutenção\ProgMntUG_EE - KMeans - 25112019\ProgMntUG\obj\x86\Debug\ProgMntUG.exe
+C:\Users\PC000042\Dropbox\UFSJ\06 - Estudos - Projetos\2019\Estudo na área de planejamento manutenção\ProgMntUG_EE - KMeans - 25112019\ProgMntUG\obj\x86\Debug\ProgMntUG.pdb
+C:\Users\PC000042\Dropbox\UFSJ\06 - Estudos - Projetos\2019\Estudo na área de planejamento manutenção\ProgMntUG_EE - KMeans - 25112019\ProgMntUG\obj\x86\Debug\ProgMntUG.csprojAssemblyReference.cache
+C:\Users\PC000042\Dropbox\UFSJ\06 - Estudos - Projetos\2019\Estudo na área de planejamento manutenção\ProgMntUG_EEAG - 05122019 - Fernando\ProgMntUG\bin\Debug\ProgMntUG.exe
+C:\Users\PC000042\Dropbox\UFSJ\06 - Estudos - Projetos\2019\Estudo na área de planejamento manutenção\ProgMntUG_EEAG - 05122019 - Fernando\ProgMntUG\bin\Debug\ProgMntUG.pdb
+C:\Users\PC000042\Dropbox\UFSJ\06 - Estudos - Projetos\2019\Estudo na área de planejamento manutenção\ProgMntUG_EEAG - 05122019 - Fernando\ProgMntUG\obj\x86\Debug\ProgMntUG.csproj.CoreCompileInputs.cache
+C:\Users\PC000042\Dropbox\UFSJ\06 - Estudos - Projetos\2019\Estudo na área de planejamento manutenção\ProgMntUG_EEAG - 05122019 - Fernando\ProgMntUG\obj\x86\Debug\ProgMntUG.exe
+C:\Users\PC000042\Dropbox\UFSJ\06 - Estudos - Projetos\2019\Estudo na área de planejamento manutenção\ProgMntUG_EEAG - 05122019 - Fernando\ProgMntUG\obj\x86\Debug\ProgMntUG.pdb
+D:\Google Drive\UFSJ\03 - Trabalho Final de Curso\01 - Orientações\2020\MCC-T - Henrique Castro\Rotinas\ProgMntUG - 24032020 - Fernando\ProgMntUG\bin\Debug\ProgMntUG.exe
+D:\Google Drive\UFSJ\03 - Trabalho Final de Curso\01 - Orientações\2020\MCC-T - Henrique Castro\Rotinas\ProgMntUG - 24032020 - Fernando\ProgMntUG\bin\Debug\ProgMntUG.pdb
+D:\Google Drive\UFSJ\03 - Trabalho Final de Curso\01 - Orientações\2020\MCC-T - Henrique Castro\Rotinas\ProgMntUG - 24032020 - Fernando\ProgMntUG\obj\x86\Debug\ProgMntUG.exe
+D:\Google Drive\UFSJ\03 - Trabalho Final de Curso\01 - Orientações\2020\MCC-T - Henrique Castro\Rotinas\ProgMntUG - 24032020 - Fernando\ProgMntUG\obj\x86\Debug\ProgMntUG.pdb
+D:\Google Drive\UFSJ\03 - Trabalho Final de Curso\01 - Orientações\2020\MCC-T - Henrique Castro\Rotinas\ProgMntUG - 24032020 - Fernando\ProgMntUG\obj\x86\Debug\ProgMntUG.csprojAssemblyReference.cache
+C:\Users\henri\Downloads\ProgMntUG - 01042020 - Fernando\ProgMntUG\obj\x86\Debug\ProgMntUG.csprojAssemblyReference.cache
+C:\Users\henri\Downloads\ProgMntUG - 01042020 - Fernando\ProgMntUG\obj\x86\Debug\ProgMntUG.csproj.CoreCompileInputs.cache
+C:\Users\henri\Downloads\ProgMntUG - 01042020 - Fernando\ProgMntUG\obj\x86\Debug\ProgMntUG.exe
+C:\Users\henri\Downloads\ProgMntUG - 01042020 - Fernando\ProgMntUG\obj\x86\Debug\ProgMntUG.pdb
+C:\Users\henri\Downloads\ProgMntUG - 01042020 - Fernando\ProgMntUG\bin\Debug\ProgMntUG.exe
+C:\Users\henri\Downloads\ProgMntUG - 01042020 - Fernando\ProgMntUG\bin\Debug\ProgMntUG.pdb
+C:\Users\Henrique Castro\Downloads\ProgMntUG - 01042020 - Fernando\ProgMntUG\obj\x86\Debug\ProgMntUG.csproj.CoreCompileInputs.cache
+C:\Users\Henrique Castro\Downloads\ProgMntUG - 01042020 - Fernando\ProgMntUG\obj\x86\Debug\ProgMntUG.exe
+C:\Users\Henrique Castro\Downloads\ProgMntUG - 01042020 - Fernando\ProgMntUG\obj\x86\Debug\ProgMntUG.pdb
+C:\Users\Henrique Castro\Downloads\ProgMntUG - 01042020 - Fernando\ProgMntUG\bin\Debug\ProgMntUG.exe
+C:\Users\Henrique Castro\Downloads\ProgMntUG - 01042020 - Fernando\ProgMntUG\bin\Debug\ProgMntUG.pdb
+C:\Users\Henrique Castro\Downloads\ProgMntUG - 01042020 - Fernando\ProgMntUG\obj\x86\Debug\ProgMntUG.csprojAssemblyReference.cache
