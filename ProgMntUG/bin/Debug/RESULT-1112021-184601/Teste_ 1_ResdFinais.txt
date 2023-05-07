@@ -1,0 +1,107 @@
+VALORES DAS FUNÇÕES OBJETIVO PARA O CASO BASE
+      UG    UG    UG    UG    UG    UG    UG    UG
+CM   100   100   100   197   197   197   400   400    Custo Médio       EENS       Receita Média
+01    00    00    00    00    00    00    00    00     218,57920    022304,91415    1788,88165
+  
+  
+DEZ MELHORES SOLUÇÕES PARA TODAS FUNÇÕES OBJETIVO
+      UG    UG    UG    UG    UG    UG    UG    UG
+CM   100   100   100   197   197   197   400   400    Custo Médio       EENS       Receita Média   Incidência
+01    19    21    28    26    31    51    33    23     222,64268    025313,75480    1768,85123     010,00000
+02    16    21    28    26    31    51    33    23     222,61942    025358,36405    1768,73734     010,00000
+03    20    26    29    27    31    34    23    51     222,22241    025718,90111    1778,49699     010,00000
+04    17    19    28    26    31    51    33    23     222,59683    025409,10356    1768,82131     010,00000
+05    19    23    30    22    25    51    28    33     222,58368    025418,35362    1757,23746     010,00000
+06    20    25    29    27    31    34    23    51     222,21473    025800,33510    1778,55535     010,00000
+07    17    33    51    20    31    34    28    23     222,57118    025497,13028    1770,52466     010,00000
+08    18    23    30    22    25    51    28    33     222,57754    025476,31779    1756,94835     010,00000
+09    21    27    46    26    29    51    33    23     222,58847    025490,54487    1769,18876     010,00000
+10    17    19    27    26    31    51    33    23     222,58339    025500,13599    1768,84201     010,00000
+  
+  
+DEZ MELHORES SOLUÇÕES PARA A RECEITA DO PRODUTOR
+      UG    UG    UG    UG    UG    UG    UG    UG
+CM   100   100   100   197   197   197   400   400    Custo Médio       EENS       Receita Média   Incidência
+01    21    24    38    21    23    25    23    23     223,58805    076168,51547    1800,39783     010,00000
+02    21    23    42    21    23    26    23    23     223,47604    078686,71414    1800,38517     010,00000
+03    21    23    42    21    23    27    23    23     223,47134    078776,79389    1800,35584     010,00000
+04    19    21    23    21    23    38    23    23     223,49837    078947,88765    1800,34324     010,00000
+05    19    23    51    21    23    25    23    23     223,47151    078252,57847    1800,26265     010,00000
+06    18    21    23    21    23    37    23    23     223,49669    079414,83167    1800,24761     010,00000
+07    18    21    23    21    23    38    23    23     223,50409    078928,96038    1800,20244     010,00000
+08    20    23    30    21    23    25    23    23     223,46763    078177,43306    1800,19513     010,00000
+09    16    23    38    21    23    25    23    23     223,45201    078216,65648    1800,15734     010,00000
+10    20    23    38    21    23    25    23    23     223,44993    078349,57523    1800,15427     010,00000
+  
+  
+DEZ MELHORES SOLUÇÕES PARA O ÍNDICE EENS
+      UG    UG    UG    UG    UG    UG    UG    UG
+CM   100   100   100   197   197   197   400   400    Custo Médio       EENS       Receita Média   Incidência
+01    19    21    28    26    31    51    33    23     222,64268    025313,75480    1768,85123     010,00000
+02    16    21    28    26    31    51    33    23     222,61942    025358,36405    1768,73734     010,00000
+03    17    19    28    26    31    51    33    23     222,59683    025409,10356    1768,82131     010,00000
+04    19    23    30    22    25    51    28    33     222,58368    025418,35362    1757,23746     010,00000
+05    18    23    30    22    25    51    28    33     222,57754    025476,31779    1756,94835     010,00000
+06    21    27    46    26    29    51    33    23     222,58847    025490,54487    1769,18876     010,00000
+07    17    33    51    20    31    34    28    23     222,57118    025497,13028    1770,52466     010,00000
+08    17    19    27    26    31    51    33    23     222,58339    025500,13599    1768,84201     010,00000
+09    18    21    34    23    28    31    33    26     222,63517    025602,73164    1759,94184     010,00000
+10    18    34    39    23    28    31    33    26     222,63791    025643,84824    1759,85079     010,00000
+  
+  
+DEZ MELHORES SOLUÇÕES PARA O CUSTO DE PRODUÇÃO
+      UG    UG    UG    UG    UG    UG    UG    UG
+CM   100   100   100   197   197   197   400   400    Custo Médio       EENS       Receita Média   Incidência
+01    01    03    42    03    26    29    03    03     220,28686    243633,10175    1744,16060     010,00000
+02    02    04    23    03    26    29    03    03     220,31010    239314,91949    1743,79852     010,00000
+03    02    04    23    03    26    30    03    03     220,31149    239266,23496    1743,78032     010,00000
+04    03    05    26    03    28    32    03    03     220,31300    241206,92454    1742,52369     010,00000
+05    02    04    25    03    29    32    03    03     220,31984    240004,45372    1743,83311     010,00000
+06    02    04    22    03    26    29    03    03     220,32185    240076,13354    1743,86411     010,00000
+07    02    04    21    03    26    29    03    03     220,32393    240041,73587    1743,83807     010,00000
+08    01    03    23    03    26    29    03    03     220,35897    240778,11393    1744,44440     010,00000
+09    02    04    22    03    27    29    03    03     220,38068    240373,71191    1743,91642     010,00000
+10    01    03    21    03    27    30    03    03     220,43046    241586,07211    1744,86065     010,00000
+ 
+ Informações gerais do teste
+ ===========================
+ Sistema Teste: IEEE_RTS
+ Período do ano: ANO
+ Carga pico (total): 2850 (MW)
+ Curva de carga considerada no estudo: HORA
+ Reserva de geração ativa a ser respeitada: 400 (MW)
+ Número de geradores já previamente programados para manunteção: 0
+ Número do teste: 1
+ Número de execuções do teste: 10
+ 
+ Parâmetros para SMCNS
+ =====================
+ Tolerância para convergência da SMCNS: 5 (%)
+ Custo do corte de carga para LOLC (UC): 1000 ($/MWh)
+ Utiliza Entropia Cruzada (CE) na avaliação de confiabilidade?: NÃO
+ 
+ Parâmetros Utilizados na Técnica de Otimização
+ ======================================
+ Técnica de otimização empregada: NSGA-II
+ Número de indivíduos da população: 100
+ Número máximo de gerações: 500
+ Número máximo de repetições da população estagnada: 50
+ Taxa de cruzamento: 65 (%)
+ Taxa de mutação: 8 (%)
+ Número de elementos do vetor plano a serem mutados de cada indivíduo de cada geração: 1
+ 
+ Parâmetros de Saída Referentes à Qualidade da NSGA-II
+ ===========================================================
+ Número médio de gerações necessárias: 87,3
+ Numero médio de avaliacoes de confiabilidade: 18561,70
+ Numero médio de estados necessários para convergência da SMCNS: 0020896,55
+ Tempo da execução 001: 5m 31s
+ Tempo da execução 002: 9m 16s
+ Tempo da execução 003: 13m 12s
+ Tempo da execução 004: 14m 2s
+ Tempo da execução 005: 4m 49s
+ Tempo da execução 006: 4m 22s
+ Tempo da execução 007: 7m 54s
+ Tempo da execução 008: 9m 0s
+ Tempo da execução 009: 16m 10s
+ Tempo da execução 010: 4m 26s

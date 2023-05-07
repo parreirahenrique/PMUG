@@ -1,0 +1,37 @@
+// Checando se não há estagnação das soluções
+                #region Checagem de repetição da melhor solução
+
+                // Caso o objetivo sendo otimizado seja a receita média do produtor
+                if(_objetivo == 1)
+                {
+                    melhorObjetivoAt = -(GeracaoAtual[0].receitaMediaProdutor); // Armazenando seu valor
+                }
+
+                // Caso o objetivo sendo otimizado seja o custo médio de produção
+                else if(_objetivo == 2)
+                {
+                    melhorObjetivoAt = GeracaoAtual[0].eensPlano;               // Armazenando seu valor
+                }
+
+                // Caso o objetivo sendo otimizado seja o índice EENS
+                else if(_objetivo == 3)
+                {
+                    melhorObjetivoAt = GeracaoAtual[0].custoMedioProd;          // Armazenando seu valor
+                }
+
+                // Caso o objetivo do melhor indivíduo da geração atual tenha um valor melhor que o da anterior
+                if(melhorObjetivoAt < melhorObjetivoAnt)
+                {
+                    melhorSolucao = new Plano(sistema);                         // Limpando objeto para recebimento do melhor indivíduo
+                    melhorSolucao = GeracaoAtual[0];                            // Armazenando melhor indivíduo
+                    melhorObjetivoAnt = melhorObjetivoAt;                       // Armazenando o valor da sua função objetivo
+                    contRep = 1;                                                // Zerando o contador de repetições
+                }
+
+                // Caso não tenha, aumenta-se o contador de repetições da melhor solução
+                else
+                {
+                    contRep++;
+                }
+
+                #endregion

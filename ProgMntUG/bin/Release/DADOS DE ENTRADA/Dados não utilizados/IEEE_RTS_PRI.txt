@@ -1,0 +1,30 @@
+----------------------------------
+1   2   3   4     5     6   7   8
+----------------------------------
+1	5	2	12	31,740	60	2	2
+2	2	10	20	44,250	50	0	2
+3	2	10	20	44,250	50	1	2
+4	2	2	76	16,560	40	1	2
+5	2	2	76	16,560	40	0	2
+6	3	4	100	26,450	50	0	2
+7	1	4	155	12,540	40	0	2
+8	1	4	155	12,540	40	1	2
+9	2	4	155	12,540	40	0	2
+10	3	5	197	23,400	50	1	2
+11	1	8	350	11,820	100	0	2
+12	1	12	400	6,7700	150	1	2
+13	1	12	400	6,7700	150	0	2
+14	6	1	50	5,0000	20	1	2
+####
+
+Informações:
+Coluna 1 - Identificador da usina
+Coluna 2 - Número de geradores contidos na usina
+Coluna 3 - Taxa de indisponibilidade do gerador
+Coluna 4 - Potência máxima do gerador [MW]
+Coluna 5 - Custo de geração [1000000 x $/MW]
+Coluna 6 - Tempo médio de reparo do gerador [h]
+Coluna 7 - Quantidade de geradores da usina que serão programados para manutenção dentro do período em estudo
+Coluna 8 - Quantidade de semanas necessárias para manutenção do gerador
+
+Obs.: Para caso anual (todas as unidades devem ser programada para manutenção), Coluna 7 = Coluna 2

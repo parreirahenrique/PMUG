@@ -1,0 +1,31 @@
+﻿Parametros de Entrada
+-------------------------------------------------------------------------------------
+0    1          2        3  4    5   6      7    8      9   10  11  12  13  14  15
+-------------------------------------------------------------------------------------
+1	1234	IEEE_RTS	ANO	5	400	1000	5	true	EE	100	200	40	10	1	HORA
+####
+
+Informações:
+============
+Coluna 0 - Número do teste
+Coluna 1 - Semente inicial para geração de números pseudoaleatórios a serem utilizados pela ferramenta de otimização
+Coluna 2 - Sistema teste (IEEE_RTS)
+Coluna 3 - Período de estudo (ANO; INV; PRI; VER; OUT)
+Coluna 4 - Número de execuções (rodadas) do teste. Obs.: para cada nova execução, a semente é acrescida de 1
+Coluna 5 - Reserva de geração ativa a ser considerada no estudo (MW)
+
+Parâmetros para SMCNS:
+======================
+Coluna 6 - UC - Custo do corte de carga para LOLC ($/MWh)
+Coluna 7 - Tolerância para convergência da SMCNS (%)
+Coluna 8 - Utiliza Entropia Cruzada (CE) na avaliação de confiabilidade? (true or false)
+
+Parâmetros da Técnica de Otimização:
+=============================
+Coluna 9 - Técnica de otimização a ser utilizada (EE or AG)
+Coluna 10 - Tamanho da população de indivíduos
+Coluna 11 - Número máximo de gerações
+Coluna 12 - Número máximo de repetições p/ a melhor solução
+Coluna 13 - (Passo de mutação)x10 (EE)
+Coluna 14 - Número de elementos a serem mutados do vetorPlano de cada indivíduo a cada geração (EE)
+Coluna 15 - Curva de carga a ser considerada no estudo (PICO ou HORA)
